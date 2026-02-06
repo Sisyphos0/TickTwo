@@ -149,7 +149,7 @@ public:
 	 * @param repeat number of repeats to execute
 	 * 
 	 */
-	void repeats(uint32_t repeat);
+	void repeats(uint32_t newrepeat);
 
 private:
 	bool tick();
