@@ -5,10 +5,9 @@
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/sstaub/TickTwo"
+    "url": "https://github.com/Sisyphos0/TickTwo.git"
   },
   "version": "4.4.0",
   "frameworks": "arduino",
   "platforms": "*"
 }
-
