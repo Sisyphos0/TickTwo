@@ -144,6 +144,13 @@ public:
 	 */
 	uint32_t counter();
 
+	/** set the number of repeats
+	 * 
+	 * @param repeat number of repeats to execute
+	 * 
+	 */
+	void repeats(uint32_t repeat);
+
 private:
 	bool tick();
 	bool enabled;

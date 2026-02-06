@@ -113,3 +113,8 @@ status_t TickTwo::state() {
 uint32_t TickTwo::counter() {
 	return counts;
 	}
+
+void TickTwo::repeats(uint32_t newrepeat) {
+	this->stop(); // stop running & paused timers
+	repeat = newrepeat;
+}
