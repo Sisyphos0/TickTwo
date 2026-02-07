@@ -93,8 +93,7 @@ void TickTwo::interval(uint32_t timer) {
 	}
 
 uint32_t TickTwo::interval() {
-	if (resolution == MILLIS) return timer / 1000;
-	else return timer;
+	return timer;
 	}
 
 uint32_t TickTwo::elapsed() {
